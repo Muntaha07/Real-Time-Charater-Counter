@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* font-family:no; */
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+
+.container {
+    width: 500px;
+    height: 250px;
+    background-color: lightpink;
+    padding: 1.5vw;
+    box-shadow: 0 4px 8px rgba(00, 00, 00, 40%);
+    border-radius: 10px;
+}
+#textarea{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin: 1vw 0;
+    font-size: 1.2vw;
+    font-family: serif;
+}
+.counter-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1px;
+    align-items: center;
+}
+.counter-div p{
+    font-size: 1.2vw;
+    font-family: monospace;
+    color: darkgray;
+}
+.count-text{
+color: #111;
+}
+.remaining-text{
+color: rgb(221, 109, 17);
+}
